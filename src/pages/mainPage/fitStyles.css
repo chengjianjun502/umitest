@@ -1,0 +1,53 @@
+/* src/App2/index.css */
+.fade-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 500ms;
+  }
+
+  .container{
+      height: 500px;
+      width: 500px;
+      border: #aaa 1px solid;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .square-wrapper{
+      height: 400px;
+      background-color: #eded;
+      margin-bottom: 1rem;
+  }
+  .square{
+      width: 300px;
+      height: 300px;
+      background-color: gold;
+      border-radius: 1rem;
+      margin: 0 auto;
+  }
+
+
+  .header{
+      background-color: aqua;
+  }
+
+  /* .mContent{
+    background-color: beige;
+    background-image: url(../../images/11111.png);
+    background-size: cover;
+  } */
