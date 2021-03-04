@@ -1,0 +1,19 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: #aaa 1px solid;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 2rem; */
+}
+
+.swiperNext{
+    position: relative;
+    right: 0;
+    top: 48%;
+}
+.swiperPrev{
+    position: relative;
+    left: 0;
+    top: 48%;
+}
